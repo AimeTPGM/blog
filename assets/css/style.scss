@@ -3,12 +3,83 @@
 
 @import 'jekyll-theme-cayman';
 
+$text-color: #2e73bf;
+$hover-text-color: rgb(255, 205, 64);
+$meta-color: #9F9F9F;
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 .page-header {
     background-image: linear-gradient(to right bottom, rgb(28, 83, 140), rgb(12, 31, 56));
+    .header-text {
+        color: $hover-text-color;
+        &:hover {
+            color: darken($color: $hover-text-color, $amount: 10)
+        }
+    }
 }
 
 .main-content {
     h1 {
-        color: #2e73bf;
+        color: $text-color;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.project-name {
+    color: $hover-text-color;
+}
+
+.post-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    .post-link {
+        color: $text-color;
+        font-size: 1.5em;
+        &:hover {
+            color: darken($color: $text-color, $amount: 10)
+        }
+    }
+    .post-meta {
+        color: $meta-color;
+    }
+}
+
+.site-footer {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    .about {
+        color: $meta-color;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            color: darken($color: $meta-color, $amount: 10)
+        }
+    }
+}
+
+.social-media {
+    display: flex;
+    li {
+        padding-right: 20px;
+        a {
+            i {
+                color: $text-color;
+                &:hover {
+                    color: darken($color: $text-color, $amount: 10)
+                }
+            }
+        }
     }
 }
