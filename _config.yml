@@ -24,6 +24,7 @@ url: "https://aimetpgm.github.io/blog/" # the base hostname & protocol for your 
 facebook_username: AimeTPGM
 github_username:  AimeTPGM
 stack_overflow_profile: https://stackoverflow.com/users/7731765/aimetpgm
+google_analytics: UA-106985153-1
 
 # Build settings
 markdown: kramdown
