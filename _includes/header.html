@@ -1,4 +1,4 @@
 <header class="page-header" role="banner">
-    <h1 class="project-name"><a class="header-text" href="/">{{ site.title}}</a></h1>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <h1 class="project-name"><a class="header-text" href="/">{{ site.title | escape }}</a></h1>
+    <h2 class="project-tagline"><code>{{ page.description | default: site.description | default: site.github.project_tagline }}</code></h2>
 </header>
