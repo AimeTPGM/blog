@@ -27,7 +27,7 @@ a {
 .main-content {
     h1 {
         color: $text-color;
-        margin: 20px 0;
+        margin: 20px 0 0;
     }
     ul {
         list-style: none;
@@ -68,6 +68,11 @@ a {
             color: darken($color: $meta-color, $amount: 10)
         }
     }
+}
+
+.post-date {
+    color: $meta-color;
+    font-size: 0.8em;
 }
 
 .social-media {
