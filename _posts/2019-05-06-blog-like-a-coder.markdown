@@ -246,7 +246,9 @@ Jekyll ก็จะ generate ไฟล์ html ที่เป็นหน้า
 
 1. รัน jekyll server ก่อน ```bundle exec jekyll serve --watch```
 
-2. สร้างไฟล์ใหม่ สมมติว่าชื่อ ```2019-05-06-first-blog.markdown``` เอาไว้ที่ ```_posts```
+2. สร้างไฟล์ใหม่ สมมติว่าชื่อ ```2019-05-06-first-blog.markdown``` เอาไว้ที่ ```_posts``` 
+{% include low-focus-text.html content="ชื่อไฟล์ใช้ภาษาอังกฤษนะจ้ะ ลองภาษาไทยแล้วไม่เวิร์ค" %}
+
 {% include file-name.html content="_posts/2019-05-06-first-blog.markdown" %} 
 ```ruby
 ---
@@ -279,6 +281,12 @@ _ตัวเอียง_
 ที่ repo นั้น ไปที่ ```setting > Github page``` เลือก master branch รอแป้บนึง เพจเราจะดีพลอยไปที่ https://your-github-username.github.io/blog/ (เดี๋ยวมาเขียนแบบละเอียดอีกที)
 
 หลังจากนี้จะ Add Entry ใหม่ ก็เพิ่มไฟล์ใหม่ใช้ format ```yyyy-MM-dd-blog-name.markdown``` ไปเรื่อยๆ แค่นี้ก็ได้บล็อกมาใช้ละ
+
+ตัวบล็อกเขียนด้วยภาษา markdown และ kramdown 
+
+{% include low-focus-text.html content="[markdown syntax จิ้มตรงนี้จ่ะ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)" %}
+
+{% include low-focus-text.html content="[kramdown doc จิ้มตรงนี้](https://kramdown.gettalong.org/documentation.html)" %}
 
 {% include focus-text.html content="**แต่เว็บดูจืดๆไม่สวยเลย :(**" %} 
 
