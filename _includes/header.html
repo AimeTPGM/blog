@@ -1,4 +1,12 @@
 <header class="page-header" role="banner">
+    {%- if page.series_episode -%}
+    <div class="series-episode">Part {{ page.series_episode }}</div>
+    {%- endif -%}
     <h1 class="project-name"><a class="header-text" href="{{ site.baseurl }}/">{{ page.topic | default: site.title | escape }}</a></h1>
     <h2 class="project-tagline"><code>{{ page.subtitle | default: page.description | default: site.description | default: site.github.project_tagline }}</code></h2>
+    <div class="span-wrapper">
+        {%- for tag in page.tags -%}
+        <span>{{ tag }}</span>
+        {%- endfor -%}
+    </div>
 </header>

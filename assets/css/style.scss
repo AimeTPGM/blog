@@ -39,6 +39,10 @@ a {
         margin: 0;
         padding: 0;
     }
+    hr {
+        height: 1px;
+        margin: 30px 0 0 0;
+    }
 }
 
 .project-name {
@@ -121,6 +125,17 @@ a {
     }
 }
 
+.span-wrapper {
+    span {
+        margin: 0 5px 0 0;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 0.8em;
+        background: #1c538c;
+        color: #FFF;
+    }
+}
+
 .post-body {
     line-height: 1.8;
     letter-spacing: 0.2px;
@@ -189,5 +204,48 @@ a {
         font-weight: 900;
         font-size: 2em;
         color: #f9b800;
+    }
+}
+
+.series-episode {
+    color: $hover-text-color;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+    .post-body {
+        .signature {
+            font-size: 1.5em;
+        }
+    }
+    .post-footer-wrapper {
+        flex-direction: column;
+        .back-button {
+            order: 2;
+        }
+        .date-wrapper {
+            order: 1;
+            width: 100%;
+            margin-bottom: 20px;
+            .date {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    .site-footer {
+        flex-direction: column;
+        align-items: center;
+        > .div {
+            margin-bottom: 20px;
+        }
+    }
+
+    .home {
+        .post-list {
+            .post-link-wrapper {
+                flex-direction: column;
+            }
+        }
     }
 }

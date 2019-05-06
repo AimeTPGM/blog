@@ -1,21 +1,23 @@
 ---
 layout: post 
+series_episode: I
 topic:  "มาทำ Blog ด้วย Jekyll กันดีก่า"
 subtitle: "เบื่อแล้ว บล็อกคนอื่น ทำเอง นักเลงพอ"
-createdDate:   2019-05-06 16:15 (GMT+7:00)
-lastModifiedDate: 2019-05-06 21:09 (GMT+7:00) 5 ชั่วโมง พระเจ้า
+createdDate:   2019-05-06 16:15 +0700
+lastModifiedDate: 2019-05-07 00:39 +0700
 categories: jekyll
-thumbnail: /blog/assets/img/2019/05/thumbnail1.png
 tableOfContent:
  - [ทำไมต้อง Jekyll, ทำไมต้อง-jekyll ]
- - [ก่อนเริ่ม Blog แรก, ก่อนเริ่ม-blog-แรก]
+ - [ก่อนทำ Blog, ก่อนทำ-blog]
  - [Requirements, requirements]
  - [ลง Jekyll กันเลย, ลง-jekyll-กันเลย]
  - [โครงสร้างของ project, โครงสร้างของ-project]
  - [แก้หน้าแรกของเพจดูกันดีกว่า, แก้หน้าแรกของเพจดูกันดีกว่า]
- - [เขียน First Blog ของตัวเอง, เขียน-first-blog-ของตัวเอง]
+ - [เขียน First Entry ของตัวเอง, เขียน-first-entry-ของตัวเอง]
+tags: [web, blog, jekyll]
 ---
-<img src="/blog/assets/img/2019/05/thumbnail1.png" style="display: none;" />
+
+{% include hidden-thumbnail.html image="/blog/assets/img/2019/05/thumbnail1.png" %}
 
 # ดีแจ้
 
@@ -29,11 +31,13 @@ tableOfContent:
 
 เลยเปลี่ยนมาใช้ [wordpress.org](https://www.wordpress.org){:target="_blank"} แทน แต่ยังไม่ตอบโจทย์ รู้สึก setup ยุ่งยาก แถมต้องไปหาที่โฮสติ้งอีก อะไรอีก {% include hashtag.html content="#สายฟรี" %} ไม่ค่อยได้บล็อกบ่อยๆเลยจบกันไปแบบนั้นดื้อๆ
 
-มีบ้างที่เขียนบล็อกทั่วไปแบบไม่เกี่ยวกับโปรแกรมมิ่งเอาไว้ใน {% include focus-text.html content="Facebook Page" %} (ซึ่ง unpublished ไปแล้ว เพราะไม่ได้เวลามาโฟกัสกับเพจมากและหมดมุขเขียน 555+)
+มีบ้างที่เขียนบล็อกทั่วไปแบบไม่เกี่ยวกับโปรแกรมมิ่งเอาไว้ใน {% include focus-text.html content="Facebook Page" %} (ซึ่ง unpublished ไปแล้ว เพราะไม่มีเวลามาโฟกัสกับเพจมากและหมดมุขเขียน 555+)
+
+เคยลอง [Medium](https://medium.com/) นิดหน่อย แต่ก็ยังไม่สาแก่ไจพี่ อยากได้เป็นของตัวเองอะๆๆๆๆๆๆ
 
 วันนึงนั่งไถๆ Facebook แล้วไปเจอโพสของน้องคนนึง เลยทำให้ได้มารู้จักกับ {% include focus-text.html content="**Jekyll**" %} ครั้งแรก
 
-# Blog นี้มีอะไรบ้าง
+# Entry นี้มีอะไรบ้าง
 
 {% include table-of-content.html header=page.tableOfContent %}
 
@@ -42,7 +46,7 @@ tableOfContent:
 ก่อนจะเริ่มเขียนบล็อกด้วย Jekyll ขอพื้นที่ในการขิงและความประทับใจที่ได้ลองจับเจอกิ้วมาปู้ยี้ปู้ยำด้วยตัวเอง 
 
 - เขียนง่าย เริ่มง่าย อาจจะเข้าใจยากช่วงแรก แต่เดี๋ยวก็ง่าย (อะไรวะ)
-- ตัว content ใน บล็อกเองเขียนด้วยภาษา markdown เข้าใจง่าย (readme ใน github ก็ใช้ mardown)
+- ตัว content ใน บล็อกเองเขียนด้วยภาษา markdown เข้าใจง่าย (readme ใน github ก็ใช้ markdown)
 - ไม่ต้องมีหลังบ้าน เพราะมันอ่าน markdown ในตัวมันเอง
 - Customize ได้ตามใจฉัน เขียนเอง บล็อกเอง นักเลงพอ
 - มี official theme ให้ใช้ สำหรับคนขี้เกียจเขียนเองทั้งหมด
@@ -65,7 +69,7 @@ tableOfContent:
 
 {% include low-focus-text.html content="ส่วนตัว แทบไม่ได้แตะรูบี้มาก่อน แต่โครงสร้างของ Jekyll มันคล้าย Python Django ถ้าใครเคยเขียนมาก่อน ก็น่าจะสบายหน่อยค่ะ" %}
 
-# ก่อนเริ่ม Blog แรก
+# ก่อนทำ Blog
 
 เกริ่นคร่าวๆก่อนว่า Jekyll มันทำงานยังไง {% include low-focus-text.html content="เอาตรงๆ ก็เพิ่งจับมาแค่วันนิดๆ ผิดถูกขออภัยนะฮะ" %}
 
@@ -84,7 +88,7 @@ tableOfContent:
 ---
 layout: post                            # เลย์เอ้าที่เอามาใช้โชว์หน้าตาบล็อก เดี๋ยวจะพูดถึงทีหลัง
 topic:  "มาทำ Blog ด้วย Jekyll กันดีก่า"    # ชื่อบล็อก
-date:   2019-05-06 16:15 (GMT+7:00)     # วันที่เขียนบล็อก
+date:   2019-05-06 16:15 +0700          # วันที่เขียนบล็อก
 categories: jekyll                      # category อยู่กงนี้
 ---
 
@@ -239,7 +243,7 @@ layout: default
 
 นี่แหล่ะ ที่มาของการแก้ ```_config.yml``` แล้วการแสดงผลในหน้าแรกมันเปลี่ยนไป
 
-# เขียน First Blog ของตัวเอง
+# เขียน First Entry ของตัวเอง
 
 ตามที่เกริ่นไว้แล้วใน [ก่อนเริ่ม Blog แรก](#ก่อนเริ่ม-blog-แรก) การเขียนบล็อกใน jekyll นั้นง่ายมาก
 

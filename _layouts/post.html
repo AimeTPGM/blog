@@ -6,17 +6,17 @@ layout: default
 </div>
 
 <div class="post-footer-wrapper">
-    <div>
+    <div class="back-button">
         <a href="{{ site.baseurl }}/">
             <i class="fa fa-chevron-left"></i> Back
         </a>
     </div>  
-    <div>
-        <div>
-            <span class="post-date">วันที่เริ่มเขียน: {{ page.createdDate }}</span>
+    <div class="date-wrapper">
+        <div class="date">
+            <span class="post-date">วันที่เริ่มเขียน: </span><span>{{ page.createdDate | date: '%B %d, %Y %k:%M' }}</span>
         </div>
-        <div>
-            <span class="post-date">อัพเดตล่าสุด: {{ page.lastModifiedDate }}</span>
+        <div class="date">
+            <span class="post-date">อัพเดตล่าสุด: </span><span>{{ page.lastModifiedDate | date: '%B %d, %Y %k:%M' }}</span>
         </div>
     </div>
 </div>
