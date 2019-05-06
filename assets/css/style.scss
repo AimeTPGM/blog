@@ -59,20 +59,46 @@ a {
         &:hover {
             color: darken($color: $text-color, $amount: 10)
         }
-        .span-wrapper{
-            font-size: 0.4em;
-            margin: 10px 0;
-            flex-wrap: wrap;
-            display: flex;
-            justify-content: start;
-            span {
-                margin-right: 5px;
-                margin-bottom: 5px;  
+        
+    }
+    .span-wrapper{
+        font-size: 0.8em;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: start;
+        color: #FFF;
+        span {
+            margin-right: 5px;
+            margin-bottom: 5px;  
+            a {
+                color: #FFF;
+                &:hover {
+                    color: $hover-text-color;
+                }
             }
         }
     }
     .post-meta {
         color: $meta-color;
+    }
+}
+
+.tag-page-wrapper {
+    .post-tag-list {
+        small {
+            color: $meta-color;
+        }
+        .span-wrapper {
+            margin: 10px 0;
+            span {
+                border: 1px solid $text-color;
+                background: #FFF;
+                a {
+                    color: $text-color;
+                }
+            }
+        }
     }
 }
 
@@ -140,13 +166,22 @@ a {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+    color: #FFF;
+    &.tag-page {
+        justify-content: start;
+    }
     span {
         margin: 0 5px 5px 0;
         padding: 5px 15px;
         border-radius: 20px;
         font-size: 0.8em;
         background: #1c538c;
-        color: #FFF;
+        a {
+            color: #FFF;
+            &:hover {
+                color: $hover-text-color;
+            }
+        }
     }
 }
 
