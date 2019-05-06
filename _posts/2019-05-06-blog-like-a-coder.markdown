@@ -5,7 +5,7 @@ subtitle: "เบื่อแล้ว บล็อกคนอื่น ทำ�
 createdDate:   2019-05-06 16:15 (GMT+7:00)
 lastModifiedDate: 2019-05-06 21:09 (GMT+7:00) 5 ชั่วโมง พระเจ้า
 categories: jekyll
-thumbnails: /blog/assets/img/2019/05/thumbnail1.png
+thumbnail: /blog/assets/img/2019/05/thumbnail1.png
 tableOfContent:
  - [ทำไมต้อง Jekyll, ทำไมต้อง-jekyll ]
  - [ก่อนเริ่ม Blog แรก, ก่อนเริ่ม-blog-แรก]
