@@ -4,7 +4,7 @@ series_episode: I
 topic:  "มาทำ Blog ด้วย Jekyll กันดีก่า"
 subtitle: "เบื่อแล้ว บล็อกคนอื่น ทำเอง นักเลงพอ"
 createdDate:   2019-05-06 16:15 +0700
-lastModifiedDate: 2019-05-07 00:39 +0700
+lastModifiedDate: 2019-05-07 01:47 +0700
 categories: jekyll
 tableOfContent:
  - [ทำไมต้อง Jekyll, ทำไมต้อง-jekyll ]
@@ -201,7 +201,7 @@ layout: home
 
 นี่เลยจ่ะ ไปดู ```_config.yml``` Line 29 จะเห็นว่า theme ที่ใช้เริ่มต้นคือ ```theme: minima```
 
-{% include blog-quote.html content="คืองี้ ถ้าเอาแบบอย่างง่าย jekyll ของเรา จะ extends theme มาจาก theme ที่เรา defines ไว้ใน <em>_config.yml</em> หลังจาก compile มันจะดึง theme นั้นมา generate html code แล้ว inject content ของ blog เราเข้าไป" %}
+{% include blog-quote.html content="คืองี้ ถ้าเอาแบบอย่างง่าย jekyll ของเรา จะ extends theme มาจาก theme ที่เรา defines ไว้ใน <em>_config.yml</em> พอ compile มันจะดึง theme นั้นมา generate html code แล้ว inject content ของ blog เราเข้าไป" %}
 
 ดังนั้นเราต้องไปดู theme minima ว่าเค้าเขียน ```home.html``` ไว้ยังไง
 
@@ -218,7 +218,7 @@ layout: default
 <!-- code html ต่างๆ -->
 ```
 
-แปลว่า ```home.html``` extends มาจาก ```default.html``` 
+แปลว่า ```home.html``` extends มาจาก ```default.html``` อีกที
 
 อ่ะ ไหนลองไปดู ```default.html``` ดูสิ้ โหย เจอโค้ดนี้หว่ะ
 
@@ -242,6 +242,8 @@ layout: default
 ดังนั้นเรามองอย่างง่ายว่า ```site``` ก็คือ object ที่เอามาจาก ```_config.yml``` ก็พอไหวอยู่
 
 นี่แหล่ะ ที่มาของการแก้ ```_config.yml``` แล้วการแสดงผลในหน้าแรกมันเปลี่ยนไป
+
+ถ้าเราเพิ่ม ```myvar: foobar``` ใดๆ ใน ```_config.yml``` แล้วอยากดึงมาใช้ด้วย ```site.myvar``` ได้เหมือนกัน
 
 # เขียน First Entry ของตัวเอง
 
