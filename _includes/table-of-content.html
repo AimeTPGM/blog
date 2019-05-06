@@ -1,0 +1,9 @@
+<div>
+    <ul>
+        {%- for item in include.header -%}
+        <li>
+            <a href="#{{item[1]}}">{{item[0]}}</a>
+        </li>
+        {%- endfor -%}
+    </ul>
+</div>

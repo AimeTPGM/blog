@@ -1,11 +1,22 @@
 ---
 layout: default
 ---
-<a href="{{ site.baseurl }}/">
-    <i class="fa fa-chevron-left"></i> Back
-</a>
+<div class="post-body">
+    {{content}}
+</div>
 
-<h1 class="post-heading">{{ page.topic }}</h1>
-<span class="post-date">{{ page.date }}</span>
-
-{{content}}
+<div class="post-footer-wrapper">
+    <div>
+        <a href="{{ site.baseurl }}/">
+            <i class="fa fa-chevron-left"></i> Back
+        </a>
+    </div>  
+    <div>
+        <div>
+            <span class="post-date">วันที่เริ่มเขียน: {{ page.createdDate }}</span>
+        </div>
+        <div>
+            <span class="post-date">อัพเดตล่าสุด: {{ page.lastModifiedDate }}</span>
+        </div>
+    </div>
+</div>

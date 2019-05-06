@@ -4,8 +4,13 @@
 @import 'jekyll-theme-cayman';
 
 $text-color: #2e73bf;
+$normal-text-color: #999;
 $hover-text-color: rgb(255, 205, 64);
 $meta-color: #9F9F9F;
+
+body {
+    color: $normal-text-color;
+}
 
 a {
     text-decoration: none;
@@ -87,5 +92,102 @@ a {
                 }
             }
         }
+    }
+}
+
+.post-footer-wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between
+}
+
+.blog-quote {
+    margin: 40px 0;
+    border-left: 10px solid $text-color;
+    background: #F8F8F8;
+    .quote-content {
+        padding: 15px;
+        margin-left: 20px;
+        font-style: oblique;
+    }
+    em {
+        font-style: initial;
+        padding: 2px 4px;
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-size: 0.9rem;
+        color: #567482;
+        background-color: #f3f6fa;
+        border-radius: 0.3rem;
+    }
+}
+
+.post-body {
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+    .hashtag {
+        font-weight: 700;
+        font-style: oblique;
+    }
+    .focus-text {
+        color: $text-color;
+    }
+    .low-focus-text {
+        color: #D6D6D6;
+        font-style: oblique;
+        font-size: 0.8em;
+    }
+    .file-name {
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+    p {
+        margin: 30px 0;
+        img {
+            box-shadow: 0px 0px 24px 1px #bdbdbd;
+            width: 60%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    a {
+        border-bottom: dashed 1px $text-color;
+        color: $text-color;
+        font-style: oblique;
+        &:hover {
+            border-bottom: dashed 1px $hover-text-color;
+            color: $hover-text-color;
+        }
+    }
+    ol {
+        margin: 20px 0;
+        li {
+            margin: 5px 0;
+            img {
+                box-shadow: 0px 0px 24px 1px #bdbdbd;
+                width: 60%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    ul {
+        margin-left: 50px;
+        font-style: oblique;
+        list-style: disc;
+        li {
+            padding-left: 20px;
+        }
+        ul {
+            list-style: circle;
+            margin-left: 50px;
+            li {
+                padding-left: 20px;
+            }
+        }
+    }
+    .signature {
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-weight: 900;
+        font-size: 2em;
+        color: #f9b800;
     }
 }
