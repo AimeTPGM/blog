@@ -15,6 +15,8 @@ tableOfContent:
  - [แก้หน้าแรกของเพจดูกันดีกว่า, แก้หน้าแรกของเพจดูกันดีกว่า]
  - [เขียน First Blog ของตัวเอง, เขียน-first-blog-ของตัวเอง]
 ---
+<img src="/blog/assets/img/2019/05/thumbnail1.png" style="display: none;" />
+
 # ดีแจ้
 
 ขอประเดิม entry แรก ด้วยการทำ blog ที่ทำให้เกิด blog นี้ขึ้นมา เอาฤกษ์เอาชัยกันหน่อยจ้า
