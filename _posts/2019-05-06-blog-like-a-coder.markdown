@@ -1,10 +1,10 @@
 ---
 layout: post 
 series_episode: I
-topic:  "มาทำ Blog ด้วย Jekyll กันดีก่า"
+topic:  "มาทำ Blog ด้วย Jekyll กันดีกว่า"
 subtitle: "เบื่อแล้ว บล็อกคนอื่น ทำเอง นักเลงพอ"
 createdDate:   2019-05-06 16:15 +0700
-lastModifiedDate: 2019-05-07 01:47 +0700
+lastModifiedDate: 2019-05-07 11:30 +0700
 categories: jekyll
 tableOfContent:
  - [ทำไมต้อง Jekyll, ทำไมต้อง-jekyll ]
@@ -19,7 +19,7 @@ tags: [web, blog, jekyll]
 
 {% include hidden-thumbnail.html image="/blog/assets/img/2019/05/thumbnail1.png" %}
 
-# ดีแจ้
+# เฮลโล๊
 
 ขอประเดิม entry แรก ด้วยการทำ blog ที่ทำให้เกิด blog นี้ขึ้นมา เอาฤกษ์เอาชัยกันหน่อยจ้า
 
@@ -52,7 +52,7 @@ tags: [web, blog, jekyll]
 - มี official theme ให้ใช้ สำหรับคนขี้เกียจเขียนเองทั้งหมด
 - รู้สึกเหมือนเขียนไป โค้ดไป ฟินดี
 - เป็น static site เอาไป deploy ที่อื่นก็ได้ อย่าง netify ไรงี้ (เพิ่ง Google มา)
-- ถ้าใช้ร่วมกับ Github Page ก็คือ ฟรีแจ้
+- ถ้าใช้ร่วมกับ Github Page ก็คือ ฟรี!
 - ด้วยความเป็น static site มันโหลดไวเว่อร์มาก
 - สามารถ Migrate Blog Content จากที่อื่นมาไว้ที่นี่ได้ หรือจากที่นี่ไปที่อื่นก็ได้อีก (ถามอากู๋เอา มีเยอะแยะ)
 - (น่าจะมีอีก แต่นึกไม่ออก)
@@ -79,7 +79,7 @@ tags: [web, blog, jekyll]
 
 คือไฟล์ .markdown มันจะอยู่ในรูปแบบ ```yyyy-MM-dd-blog-name.markdown``` หลังจาก complie ไฟล์นี้จะถูก generate เป็น ```~/yyyy/MM/dd/blog-name.html``` นะเอง
 
-แต่! ยังไม่หมด jekyll มีฟังก์ชั่นสำหรับทำ category มาด้วยแจ้
+แต่! ยังไม่หมด jekyll มีฟังก์ชั่นสำหรับทำ category มาให้ด้วย อู้หูววว
 
 เวลาเราเขียนบล็อกที่หัวของไฟล์จะมีหน้าตาประมาณนี้
 

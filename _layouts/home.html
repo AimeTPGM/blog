@@ -11,7 +11,12 @@ layout: default
       <li class="post-link-wrapper">
         <div>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            <div>{{ post.topic | escape }}</div>
+            <div>
+                {%- if post.series_episode -%}
+                <span>Part {{post.series_episode}} </span>
+                {%- endif -%}
+                <span>{{ post.topic | escape }}</span>
+              </div>
           </a>
           <div class="span-wrapper">
             {%- for tag in post.tags -%}
