@@ -19,8 +19,6 @@ tags: [web, blog, jekyll]
 
 {% include hidden-thumbnail.html image="/blog/assets/img/2019/05/thumbnail1.png" %}
 
-# เฮลโล๊
-
 ขอประเดิม entry แรก ด้วยการทำ blog ที่ทำให้เกิด blog นี้ขึ้นมา เอาฤกษ์เอาชัยกันหน่อยจ้า
 
 {% include blog-quote.html content="(เว้นที่ไว้ตัดริบบิ้น)" %}
