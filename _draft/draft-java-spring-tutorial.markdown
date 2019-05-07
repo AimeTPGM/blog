@@ -1,6 +1,6 @@
 ---
 layout: post 
-series_episode: Spin-off
+series_episode: I
 topic:  "First Spring Boot App"
 subtitle: "DRY – Don't Repeat Yourself"
 createdDate:   2019-05-06 16:15 +0700
