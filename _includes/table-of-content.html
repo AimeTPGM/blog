@@ -2,7 +2,7 @@
     <ul>
         {%- for item in include.header -%}
         <li>
-            <a href="#{{item[1]}}">{{item[0]}}</a>
+            <a href="#{{item | downcase | replace: ' ', '-' }}">{{item}}</a>
         </li>
         {%- endfor -%}
     </ul>

@@ -7,17 +7,17 @@ createdDate:   2019-05-06 16:15 +0700
 lastModifiedDate: 2019-05-07 11:30 +0700
 categories: jekyll
 tableOfContent:
- - [ทำไมต้อง Jekyll, ทำไมต้อง-jekyll ]
- - [ก่อนทำ Blog, ก่อนทำ-blog]
- - [Requirements, requirements]
- - [ลง Jekyll กันเลย, ลง-jekyll-กันเลย]
- - [โครงสร้างของ project, โครงสร้างของ-project]
- - [แก้หน้าแรกของเพจดูกันดีกว่า, แก้หน้าแรกของเพจดูกันดีกว่า]
- - [เขียน First Entry ของตัวเอง, เขียน-first-entry-ของตัวเอง]
+ - ทำไมต้อง Jekyll
+ - ก่อนทำ Blog
+ - Requirements
+ - ลง Jekyll กันเลย
+ - โครงสร้างของ project
+ - แก้หน้าแรกของเพจดูกันดีกว่า
+ - เขียน First Entry ของตัวเอง
 tags: [web, blog, jekyll]
 ---
 
-{% include hidden-thumbnail.html image="/blog/assets/img/2019/05/thumbnail1.png" %}
+{% include hidden-thumbnail.html image="/blog/assets/img/2019/05/06/thumbnail.png" %}
 
 ขอประเดิม entry แรก ด้วยการทำ blog ที่ทำให้เกิด blog นี้ขึ้นมา เอาฤกษ์เอาชัยกันหน่อยจ้า
 
@@ -123,7 +123,7 @@ New jekyll site installed in /path/to/your/workspace/blog
 เท่านี้เราก็จะได้ Jekyll site พร้อม theme เริ่มต้นไว้ใช้งานแล้วจ้า 
 5. อยากจะลองรันขึ้นมาดูก็ ```bundle exec jekyll serve --watch``` บล็อกของเราจะไปรันที่ ```localhost:4000```
 
-![1](/blog/assets/img/2019/05/1.png)
+![1](/blog/assets/img/2019/05/06/1.png)
 
 # โครงสร้างของ project
 
@@ -181,7 +181,7 @@ github_username:  ยูสเซอกิตฮับ
 
 แล้วไปดูที่ ```localhost:4000/blog/``` หน้าตาก็จะเปลี่ยนไปตามที่เราแก้จ้า
 
-![2](/blog/assets/img/2019/05/2.png)
+![2](/blog/assets/img/2019/05/06/2.png)
 
 {% include focus-text.html content="**ทำไมล่ะ?**" %}
 
@@ -277,9 +277,9 @@ _ตัวเอียง_
 
 กด save แล้วไปดูที่ ```localhost:4000/blog/``` จะเจอ entry ใหม่เข้ามา
 
-![3](/blog/assets/img/2019/05/3.png)
+![3](/blog/assets/img/2019/05/06/3.png)
 
-![4](/blog/assets/img/2019/05/4.png)
+![4](/blog/assets/img/2019/05/06/4.png)
 
 จบละเธอ อีซี่ 
 
