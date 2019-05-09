@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div>
+
+{% assign allSeries = "" %}
+{% for post in site.posts %}
+    {% if post.series %}
+        {% assign seriesName = post.series | append:'|' %}
+        {% assign allSeries = allSeries | append: seriesName %}
+    {% endif %}
+{% endfor %}
+
+{% assign allSeries = allSeries | split:'|' | sort %}
+{% for series in allSeries %}
+<div>
+    <span>{{series}}</span>
+</div>
+{% endfor %}
+
+</div>

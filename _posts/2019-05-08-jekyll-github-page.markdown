@@ -1,5 +1,6 @@
 ---
 layout: post 
+series: jekyll
 series_episode: II
 topic:  "เอา Jekyll Blog ขึ้น Github Page กัน"
 subtitle: "พอจะมีเวลาว่างสัก 5 นาทีไหม?"
