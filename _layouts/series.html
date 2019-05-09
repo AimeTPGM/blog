@@ -7,7 +7,9 @@ layout: default
 {% for post in site.posts %}
     {% if post.series %}
         {% assign seriesName = post.series | append:'|' %}
-        {% assign allSeries = allSeries | append: seriesName %}
+        {% unless allSeries contains seriesName %}
+            {% assign allSeries = allSeries | append: seriesName %}
+        {% endunless %}
     {% endif %}
 {% endfor %}
 
@@ -15,6 +17,13 @@ layout: default
 {% for series in allSeries %}
 <div>
     <span>{{series}}</span>
+    {% for post in site.posts %}
+        {% if post.series == series %}
+        <div>
+            {{ post.topic }}
+        </div>
+        {% endif %}
+    {% endfor %}
 </div>
 {% endfor %}
 
