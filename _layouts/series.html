@@ -15,16 +15,16 @@ layout: default
 
 {% assign allSeries = allSeries | split:'|' | sort %}
 {% for series in allSeries %}
-<div>
-    <span>{{series}}</span>
-    {% for post in site.posts %}
-        {% if post.series == series %}
-        <div>
-            {{ post.topic }}
-        </div>
-        {% endif %}
-    {% endfor %}
-</div>
+    <div class="series-wrapper">
+        <h2><span>{{series}}</span></h2>
+        {% for post in site.posts %}
+            {% if post.series == series %}
+            <div>
+                <a>{{ post.topic }}</a>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
 {% endfor %}
 
 </div>

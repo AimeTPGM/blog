@@ -64,6 +64,18 @@ a {
         &:hover {
             color: darken($color: $text-color, $amount: 10)
         }
+        .topic-wrapper {
+            display: flex;
+            align-items: center;
+            .part-wrapper {
+                font-size: 0.5em;
+                padding: 0 7px;
+                margin-right: 10px;
+                border: 1px solid $text-color;
+                border-radius: 20px;
+            }
+        }
+        
         
     }
     .span-wrapper{
@@ -268,7 +280,20 @@ a {
     font-size: 1.5em;
 }
 
+.desktop {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
     .post-body {
         .signature {
             font-size: 1.5em;
@@ -301,6 +326,17 @@ a {
         .post-list {
             .post-link-wrapper {
                 flex-direction: column;
+                .post-link-div {
+                    margin-bottom: 0;
+                    .topic-wrapper {
+                        flex-direction: column;
+                        align-items: start;
+                    }
+
+                }
+                .post-meta {
+                    font-size: 0.8em;
+                }
             }
         }
     }
