@@ -1,0 +1,28 @@
+<div class="additional-wrapper">
+    <div class="header-wrapper" id="{{ include.id }}">
+        <div class="topic">{{ include.topic }}</div>
+        <div class="arrow">
+            <i class="fa fa-chevron-right" id="arrow_{{include.id}}"></i>
+        </div>
+    </div>
+    <div class="content" id="text_{{ include.id }}" style="display: none;">{{ include.text }}</div>
+</div>
+
+<script>
+
+    document.getElementById('{{ include.id }}').addEventListener('click', () => {
+        const textElement = document.getElementById('text_{{ include.id }}');
+        const arrowElement = document.getElementById('arrow_{{ include.id }}');
+        const currentStyle = textElement.style.display;
+        if (currentStyle === 'none') {
+            textElement.style.display = 'block';
+            arrowElement.style.transform = 'rotate(90deg)';
+            arrowElement.style.transition = '0.3s';
+        } else {
+            textElement.style.display = 'none';
+            arrowElement.style.transform = 'rotate(0deg)';
+            arrowElement.style.transition = '0.3s';
+
+        }
+    })
+</script>

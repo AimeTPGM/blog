@@ -28,6 +28,9 @@ google_analytics: UA-106985153-1
 
 # Build settings
 markdown: kramdown
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed

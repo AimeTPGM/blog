@@ -1,11 +1,11 @@
 ---
 layout: post 
-series: jekyll
+series: Jekyll Blog
 series_episode: II
 topic:  "เอา Jekyll Blog ขึ้น Github Page กัน"
 subtitle: "พอจะมีเวลาว่างสัก 5 นาทีไหม?"
 createdDate:   2019-05-08 18:22 +0700
-lastModifiedDate: 2019-05-08 19:30 +0700
+lastModifiedDate: 2019-05-09 23:31 +0700
 categories: jekyll
 tableOfContent:
  - Requirements
@@ -39,20 +39,28 @@ tags: [web, blog, jekyll, git, github, github page]
 
 # Push Blog ขึ้น Git
 
-1. เปิด cmd หรือ Terminal ขึ้นมา change directory ไปที่ Jekyll Blog ของตัวเอง
+1. เปิดไฟล์ `~/blog/Gemfile` ขึ้นมา แล้วใส่บรรทัดนี้ลงไปล่างสุด
+```
+gem 'github-pages', group: :jekyll_plugins
+```
+2. เปิด cmd หรือ Terminal ขึ้นมา change directory ไปที่ Jekyll Blog ของตัวเอง
 ```
 $cd ~/path/to/your/blog
 ```
-2. config git ใน folder นั้น
+3. สั่งให้ download dependency
 ```
-$git init
-$git remote add origin https://github.com/AimeTPGM/blog.git
+$bundle install
+```
+4. config git ใน folder นั้น
+```
+$ git init
+$ git remote add origin https://github.com/AimeTPGM/blog.git
 ```
 3. add ทุกอย่างขึ้นไป แล้ว push ขึ้น Github เลย {% include low-focus-text.html content="ตอนสร้างโปรเจ็ค Jekyll ขึ้นมา Jekyll ทำไฟล์ .gitignore ให้เราอยู่แล้ว เราไม่ต้องกลัวว่าจะ push ไฟล์ขยะขึ้นไปบน git ค่ะ" %}
 ```
-$git add .                          # add ทุกอย่างเข้า git
-$git commit -am "init my blog"      # comment เกี่ยวกับ change นี้สักหน่อย
-$git push origin master             # push ขึ้น github กันเลย
+$ git add .                          # add ทุกอย่างเข้า git
+$ git commit -am "init my blog"      # comment เกี่ยวกับ change นี้สักหน่อย
+$ git push origin master             # push ขึ้น github กันเลย
 ```
 1. กลับไปที่ browser แล้ว refresh หนึ่งที จะเห็นเว็บแบบนี้ แปลว่า code และ blog ของเราขึ้นไปอยู่บน Github แล้ว ครั้งต่อไปที่เราเขียนบล็อกเพิ่ม ก็ repeat step 3 เราจะเห็น entry ใหม่เพิ่มขึ้นทันที
    ![4](/blog/assets/img/2019/05/08/4.png)

@@ -1,6 +1,6 @@
 ---
 layout: post 
-series: jekyll
+series: Jekyll Blog
 series_episode: I
 topic:  "มาทำ Blog ด้วย Jekyll กันดีกว่า"
 subtitle: "เบื่อแล้ว บล็อกคนอื่น ทำเอง นักเลงพอ"
@@ -83,7 +83,7 @@ tags: [web, blog, jekyll]
 เวลาเราเขียนบล็อกที่หัวของไฟล์จะมีหน้าตาประมาณนี้
 
 {% include file-name.html content="2019-05-06-blog-like-a-coder.markdown" %} 
-```ruby
+```html
 ---
 layout: post                            # เลย์เอ้าที่เอามาใช้โชว์หน้าตาบล็อก เดี๋ยวจะพูดถึงทีหลัง
 topic:  "มาทำ Blog ด้วย Jekyll กันดีก่า"    # ชื่อบล็อก
@@ -130,7 +130,7 @@ New jekyll site installed in /path/to/your/workspace/blog
 
 ถ้าเข้าไปดูใน root โฟลเดอร์ที่เราเพิ่งสร้างมาเมื่อกี้ จะเจอไฟล์ต่างๆประมาณนี้
 ```
-blog
+~/blog/
 │   _config.yml         // เอาไว้เซ็ต config ของโปรเจ็ค
 │   .gitignore
 │   404.html            // ถ้าหา page ไม่เจอ จะเข้าหน้านี้
@@ -139,13 +139,12 @@ blog
 │   Gemfile.lock
 │   index.md            // content ของหน้าแรก
 │
-└─── _posts
-│   │
-│   └─ 2019-05-06-welcome-to-jekyll.markdown    // ไฟล์ Blog แรกของเรา เย้!
+└─── _posts/
+│   │   2019-05-06-welcome-to-jekyll.markdown    // ไฟล์ Blog แรกของเรา เย้!
 │
-└─── _sites             // เวลารัน local ไฟล์ต่างๆจะคอมไพล์มาไว้ที่โฟลเดอร์นี้
+└─── _sites/             // เวลารัน local ไฟล์ต่างๆจะคอมไพล์มาไว้ที่โฟลเดอร์นี้
 │
-└─── _sass-cache
+└─── _sass-cache/
 
 ```
 
@@ -154,7 +153,7 @@ blog
 หน้าแรกของเพจจะเริ่มต้นอ่านที่ ```index.md``` เสมอ
 
 {% include file-name.html content="index.md" %} 
-```ruby
+```html
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
@@ -209,7 +208,7 @@ layout: home
 เข้าไปดูที่ ```_layouts/home.html``` จะเจอประมาณนี้
 
 {% include file-name.html content="_layouts/home.html" %} 
-```ruby
+```html
 ---
 layout: default
 ---
@@ -222,7 +221,7 @@ layout: default
 อ่ะ ไหนลองไปดู ```default.html``` ดูสิ้ โหย เจอโค้ดนี้หว่ะ
 
 {% include file-name.html content="_layouts/home.html" %} 
-```ruby
+```html
 {% raw %}
 {%- include header.html -%}
 {% endraw %}
@@ -232,7 +231,7 @@ layout: default
 เราก็ trace ไปต่อ เปิดไฟล์นั้นขึ้นมาค่ะ!! {% include hashtag.html content="#ไปค่ะพี่สมหมาย" %}
 
 {% include file-name.html content="_includes/header.html" %} 
-```ruby
+```html
 <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{% raw %}{{ site.title | escape }}{% endraw %}</a>
 ```
 
@@ -258,7 +257,7 @@ Jekyll ก็จะ generate ไฟล์ html ที่เป็นหน้า
 {% include low-focus-text.html content="ชื่อไฟล์ใช้ภาษาอังกฤษนะจ้ะ ลองภาษาไทยแล้วไม่เวิร์ค" %}
 
 {% include file-name.html content="_posts/2019-05-06-first-blog.markdown" %} 
-```ruby
+```html
 ---
 layout: post
 title:  "บล็อกแรกเลยเธอ"
