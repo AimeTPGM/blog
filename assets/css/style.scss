@@ -34,6 +34,9 @@ a {
         color: $text-color;
         margin: 20px 0 0;
     }
+    h3 {
+        margin: 0;
+    }
     ul {
         list-style: none;
         margin: 0;
@@ -314,9 +317,20 @@ em {
 
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-between;
+.embeded-series-wrapper {
+    .header {
+        color: #159957;
+        span {
+            color: $text-color;
+            font-weight: 900;
+        }
+        
+    }
+    .series-wrapper {
+        .header {
+            color: #159957;
+        }
+    }
 }
 @media only screen and (max-width: 768px) {
     .desktop {

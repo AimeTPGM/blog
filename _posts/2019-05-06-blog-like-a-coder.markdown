@@ -1,6 +1,6 @@
 ---
 layout: post 
-series: Jekyll Blog
+series: ทำ Blog ด้วย Jekyll
 series_episode: I
 topic:  "มาทำ Blog ด้วย Jekyll กันดีกว่า"
 subtitle: "เบื่อแล้ว บล็อกคนอื่น ทำเอง นักเลงพอ"
