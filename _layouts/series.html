@@ -18,7 +18,7 @@ layout: default
     {% assign spinOff = "" %}
     <div class="series-wrapper">
         <h2><span>{{series}}</span></h2>
-        <h3>Main Part</h3>
+        <h3>Main Content</h3>
         {% for post in site.posts %}
             {% if post.series == series %}
                 {% if post.series_episode != "Spin-off" %}
@@ -35,7 +35,7 @@ layout: default
     {% assign spinOff = spinOff | split:'|' | sort %}
     {% if spinOff.size > 0 %}
     <div class="series-wrapper">
-        <h3>Spin off</h3>
+        <h3>Spin-off</h3>
         
         {% for item in spinOff %}
             <div>{{item}}</div>
