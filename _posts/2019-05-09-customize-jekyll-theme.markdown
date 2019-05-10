@@ -5,7 +5,7 @@ series_episode: III
 topic:  "แต่ง Blog สวยๆ ด้วย Jekyll Theme"
 subtitle: "Blog ไป Code ไป สะใจจริงๆ"
 createdDate:   2019-05-09 16:48 +0700
-lastModifiedDate: 2019-05-10 02:34 +0700
+lastModifiedDate: 2019-05-10 11:45 +0700
 categories: jekyll
 tableOfContent:
  - Requirements
@@ -35,7 +35,7 @@ EP นี้เราจะมาแต่ง Blog จากการ Override O
 
 {% include blog-quote.html content="Blog ไป Code ไป สะใจจริงๆ" %}
 
-{% include focus-text.html content="<b>คำเตือน:</b>" %} entry นี้ค่อนข้างยาว เหมาะสำหรับอ่านไป ทำไปพร้อมๆกัน ทำเสร็จแล้วจะได้ blog พื้นฐานแบบสวยๆ ไม่อายใคร เอาไปร่อนอวดคนอื่นได้เลย
+{% include focus-text.html content="<b>คำเตือน:</b>" %} entry นี้ค่อนข้างยาว เหมาะสำหรับอ่านไป ทำไปพร้อมๆกัน ทำเสร็จแล้วจะได้ blog พื้นฐานแบบสวยๆ เอาไปร่อนอวดคนอื่นได้เลย
 
 # Entry นี้มีอะไรบ้าง
 
@@ -43,7 +43,7 @@ EP นี้เราจะมาแต่ง Blog จากการ Override O
 
 # Requirements
 
-- เอ็นทรี่นี้ไม่ขออะไรมาก นอกจากเวลา หัวใจที่อยากเรียนรู้ และความอึดถึกทนของคนอ่าน
+- เอ็นทรี่นี้ไม่ขออะไรมาก นอกจากเวลา ใจที่อยากเรียนรู้และความอึดถึกทนของคนอ่าน
 - อย่าลืม commit และ push code ขึ้น git ทุกครั้งที่ทำแต่ละ step เสร็จ Blog ของเราจะได้ publish ขึ้นอย่างต่อเนื่อง แถม revert code มาตรงจุดที่เราต้องการได้ด้วย
 
 # Start Using Jekyll Theme
@@ -129,7 +129,7 @@ layout: home        # แปลว่าเรียกใช้ home.html
 
 เราหาคำตอบมาให้แล้ว ใน section หน้า แต่อยากให้ลองทำหน้า Home กันต่อไปอีกสักนิดนึง
 
-{% include focus-text.html content="ไม่มีหน้า home ใช่ไหม? ก็สร้างเองเลยสิ!" %} {% include low-focus-text.html content="สร้างเอง โค้ดเอง นักเลงพอ"%}
+{% include focus-text.html content="ไม่มีหน้า home ใช่ไหม? ก็สร้างเองเลยสิ!" %}
 
 ## สร้างหน้า Home
 
@@ -248,17 +248,11 @@ You’ll find this post in your `_posts` directory.
 
 {% include focus-text.html content="แสดงว่าโค้ดสำหรับหน้า Post ก็ไม่มี! omggggg" %}
 
-สำหรับใครที่อยากจะยอมแพ้ ไปหา theme อื่นมาใช้แล้วก็ไม่ว่ากัน แต่ถ้าเราผ่านตรงนี้ไปได้ เราจะเป็นใหญ่ในตองอู
-
-นี่เลยเลือก theme Cayman มาใช้ ก็เพราะเหตุผลนี้ด้วย ในภายภาคหน้า ถ้าเราอยากเขียน theme เองทั้งดุ้น Cayman คือ best start
-
-{% include blog-quote.html content="ถ้าใครเหนื่อย อนุญาตให้ไปพัก 5 นาที แล้วมาอ่านต่อ" %}
-
-มา! ต่อ!
-
 ## สร้าง Blog Post
 
-เรามาสร้างหน้า blog post แบบง่ายๆสวยๆกัน
+ถ้าไม่มี งั้นเรามาสร้างหน้า blog post แบบง่ายๆสวยๆกัน
+
+{% include focus-text.html content="คอนเซ็ปเดิม ถ้าไม่มี ก็สร้างเองเลย" %}
 
 เริ่มจากสร้างไฟล์ `post.html` ไว้ในโฟลเดอร์ `_layouts` แบบนี้
 
@@ -332,7 +326,7 @@ save แล้ว refresh ก็ได้ลิ้งกลับไปหน้
 
 1. นอกจากเรื่อง `_layouts` และ `_posts` โครงสร้างของ Jekyll ยังมีโฟลเดอร์อื่นๆอยู่อีก หลักๆคือ `assets` และ `_includes` ที่อยู่ใน root folder เหมือนกัน (ในที่นี้คือ `~/blog/`)
 2. `assets` คือโฟลเดอร์ที่เอาไว้เก็บ static file ต่างๆ อย่างรูปภาพ รวมถึงไฟล์ style ที่เอาไว้ customize blog อย่าง scss ด้วย หากอยากแก้ style ของเพจให้อ่าน section ต่อไป
-3. ส่วน `_includes` เอาไว้เก็บ html components ต่างๆ ที่เราสามารถนำมา reuse ได้ (จะมาเขียนบล็อกแยกออกไปทีหลังเป็น Spin Off)
+3. ส่วน `_includes` เอาไว้เก็บ html components ต่างๆ ที่เราสามารถนำมา reuse ได้ (จะมาเขียนบล็อกแยกออกไปทีหลัง)
 
 {% include low-focus-text.html content="[อ่านเพิ่มเติมเกี่ยวกับ Jekyll Theme จิ้มจ้า](https://jekyllrb.com/docs/themes/){:target='_blank'}" %}
 
@@ -419,17 +413,15 @@ permalink: /about/
 
 ใครอ่านมาถึงตรงนี้ ปรบมือให้ตัวเองดังๆ คุณเก่งมาก (และอดทนมาก 5555)
 
-Part นี้เป็น Part ที่เขียนเหนื่อยสุด ยาวสุด รูปเยอะสุด แต่ตั้งใจเขียนมากสุด
-
-คนเขียนก็เหนื่อย คนอ่านก็เหนื่อย
+Part นี้เป็น Part ที่เขียนเหนื่อยสุด แต่ตั้งใจเขียนมากสุด
 
 หวังว่าจะเป็นประโยชน์กับใครหลายๆคนที่อยากเริ่มเขียน Blog ทำ Blog ของตัวเอง
 
-ไว้มาเขียน Spin Off สั้นๆ เป็นโค้ดไว้ทำหน้า page, tags, series, seo, google analytic และอื่นๆเท่าที่ลองโค้ดมา
+ไว้มาเขียน Spin Off สั้นๆ เป็นโค้ดไว้ทำ components หรือหน้า page, tags, series, วิธีการใส่ seo, google analytic ฯลฯ
 
 ขอจบ Entry นี้ไว้แค่นี้ 
 
-ราตรีสวัสดิ์
+สวัสดีค่ะ
 
 {% include signature.html %}
 
