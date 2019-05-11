@@ -4,6 +4,7 @@ series: ทำ Blog ด้วย Jekyll
 series_episode: II
 topic:  "เอา Jekyll Blog ขึ้น Github Page กัน"
 subtitle: "พอจะมีเวลาว่างสัก 5 นาทีไหม?"
+description: "มาอัพบล็อกขึ้นไปบน github page เอาไว้แชร์ให้คนอื่นเข้ามาอ่านบล็อกของเรากัน"
 createdDate:   2019-05-08 18:22 +0700
 lastModifiedDate: 2019-05-09 23:31 +0700
 categories: jekyll

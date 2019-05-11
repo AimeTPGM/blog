@@ -74,7 +74,6 @@ a {
             .part-wrapper {
                 font-size: 0.5em;
                 padding: 0 7px;
-                margin-right: 10px;
                 border: 1px solid $text-color;
                 border-radius: 20px;
             }
@@ -335,6 +334,40 @@ em {
     .series-wrapper {
         .header {
             color: #159957;
+        }
+    }
+}
+
+.conversation-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    .mrA {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #2e73bf;
+        i {
+            font-size: 1.5em;
+            
+        }
+        span {
+            font-size: 0.5em;
+        }
+    }
+    .text-box {
+        padding: 10px; background: #EFEFEF; margin-left: 20px;
+        &:before {
+            content: '';
+            display: inline-block;
+            width: 1px;
+            height: 1px;
+            position: absolute;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            margin-left: -25px;
+            border-right: 15px solid #EFEFEF;
+            margin-top: 8px;
         }
     }
 }

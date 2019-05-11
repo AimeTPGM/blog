@@ -4,6 +4,7 @@ series: ทำ Blog ด้วย Jekyll
 series_episode: I
 topic:  "มาทำ Blog ด้วย Jekyll กันดีกว่า"
 subtitle: "เบื่อแล้ว บล็อกคนอื่น ทำเอง นักเลงพอ"
+description: "สอนทำบล็อกจากเริ่มต้นจนจบด้วย Jekyll อย่างละเอียด"
 createdDate:   2019-05-06 16:15 +0700
 lastModifiedDate: 2019-05-07 11:30 +0700
 categories: jekyll
@@ -131,19 +132,19 @@ New jekyll site installed in /path/to/your/workspace/blog
 ถ้าเข้าไปดูใน root โฟลเดอร์ที่เราเพิ่งสร้างมาเมื่อกี้ จะเจอไฟล์ต่างๆประมาณนี้
 ```
 ~/blog/
-│   _config.yml         // เอาไว้เซ็ต config ของโปรเจ็ค
-│   .gitignore
-│   404.html            // ถ้าหา page ไม่เจอ จะเข้าหน้านี้
-│   about.md            // content หน้า about
-│   Gemfile             // สำหรับ install dependencies ต่างๆ
-│   Gemfile.lock
-│   index.md            // content ของหน้าแรก
-│
+|   _config.yml         // เอาไว้เซ็ต config ของโปรเจ็ค
+|   .gitignore
+|   404.html            // ถ้าหา page ไม่เจอ จะเข้าหน้านี้
+|   about.md            // content หน้า about
+|   Gemfile             // สำหรับ install dependencies ต่างๆ
+|   Gemfile.lock
+|   index.md            // content ของหน้าแรก
+|
 └─── _posts/
-│   │   2019-05-06-welcome-to-jekyll.markdown    // ไฟล์ Blog แรกของเรา เย้!
-│
+|   |   2019-05-06-welcome-to-jekyll.markdown    // ไฟล์ Blog แรกของเรา เย้!
+|
 └─── _sites/             // เวลารัน local ไฟล์ต่างๆจะคอมไพล์มาไว้ที่โฟลเดอร์นี้
-│
+|
 └─── _sass-cache/
 
 ```

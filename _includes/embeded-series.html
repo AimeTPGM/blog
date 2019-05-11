@@ -18,7 +18,7 @@
         {% endif %}
     {% endfor %}
 
-    {% assign mainPart = mainPart | split:'|' | sort %}
+    {% assign mainPart = mainPart | split:'|' | reverse %}
     <div class="header">บทความทั้งหมดเกี่ยวกับ <span>{{ page.series }}</span></div>
     <div class="series-wrapper">
         {% for item in mainPart %}

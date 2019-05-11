@@ -4,6 +4,7 @@ series: ทำ Blog ด้วย Jekyll
 series_episode: III
 topic:  "แต่ง Blog สวยๆ ด้วย Jekyll Theme"
 subtitle: "Blog ไป Code ไป สะใจจริงๆ"
+description: "มาแต่ง blog ด้วย Jekyll Official Theme สอน override theme การสร้าง blog การทำหน้า home และอธิบายการทำงานของ gem-based theme"
 createdDate:   2019-05-09 16:48 +0700
 lastModifiedDate: 2019-05-10 11:45 +0700
 categories: jekyll
@@ -137,15 +138,15 @@ layout: home        # แปลว่าเรียกใช้ home.html
 
 ```
 ~/blog/
-│   _config.yml        
+|   _config.yml        
 |   .          
-│   . ไฟล์ต่างๆ  
-│   .                       
-│
+|   . ไฟล์ต่างๆ  
+|   .                       
+|
 └─── _posts/
 |
 └─── _layouts/       <<<<< โฟลเดอร์ตรงนี้
-    │   home.html    <<<<< เอาไฟล์ home.html ไว้ตรงนี้
+    |   home.html    <<<<< เอาไฟล์ home.html ไว้ตรงนี้
 ```
 
 จากนั้นเปิดไฟล์ `home.html` ขึ้นมา เขียนโค้ดลงไปประมาณนี้
@@ -258,16 +259,16 @@ You’ll find this post in your `_posts` directory.
 
 ```
 ~/blog/
-│   _config.yml        
+|   _config.yml        
 |   .          
-│   . ไฟล์ต่างๆ  
-│   .                       
-│
+|   . ไฟล์ต่างๆ  
+|   .                       
+|
 └─── _posts/
 |
 └─── _layouts/       
     |   home.html
-    │   post.html     <<<<< สร้างอันนี้เพิ่ม
+    |   post.html     <<<<< สร้างอันนี้เพิ่ม
 ```
 
 ใส่โค้ดของหน้า post ลงไป
@@ -336,11 +337,11 @@ save แล้ว refresh ก็ได้ลิ้งกลับไปหน้
 
 ```
 ~/blog/
-│   _config.yml        
+|   _config.yml        
 |   .          
-│   . ไฟล์ต่างๆ  
-│   .                       
-│
+|   . ไฟล์ต่างๆ  
+|   .                       
+|
 └─── _posts/
 |
 └─── _layouts/   
