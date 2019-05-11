@@ -1,5 +1,6 @@
 ---
 layout: post 
+series: Others
 topic:  ทำ form ไว้ส่ง mail จากหน้าเว็บกัน
 subtitle: " "
 description: "basic html และ jvavascript สำหรับส่งอีเมลล์จาก html form ไปหา email ใน portfolio หรือเว็บไซต์ของตัวเอง"
