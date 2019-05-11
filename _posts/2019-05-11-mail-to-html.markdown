@@ -15,7 +15,7 @@ tags: [web, html, javascript, gmail]
 ---
 {% include hidden-thumbnail.html image="/blog/assets/img/2019/05/11/thumbnail.png" %}
 
-พอดีไปเจอคำถามนึงใน facebook group ของ [สมาคมโปรแกรมเทอร์ไทย](https://web.facebook.com/groups/ThaiPGAssociateSociety/){:target="_blank"}
+พอดีไปเจอคำถามนึงใน facebook group ของ [สมาคมโปรแกรมเมอร์ไทย](https://web.facebook.com/groups/ThaiPGAssociateSociety/){:target="_blank"}
 
 {% include mrA.html content="เราจะเขียนให้มันส่งเมลล์มาหาเรายังไงครับ" %}
 
