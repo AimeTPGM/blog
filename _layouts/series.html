@@ -48,7 +48,11 @@ layout: default
     {% assign spinOff = spinOff | split:'|' | sort %}
     {% if spinOff.size > 0 %}
     <div class="series-wrapper" style="margin-top: 20px;">
+        {% if series == "Others" %}
+        <h3>Others</h3>
+        {% else %}
         <h3>Spin-off</h3>
+        {% endif %}
         {% for item in spinOff %}
             {% assign postInfo = item | split: '_' %}
                 <div>
