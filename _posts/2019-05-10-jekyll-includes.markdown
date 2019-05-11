@@ -248,7 +248,7 @@ concept ของ component templates ใน Jekyll ก็ประมาณน�
 
 {% include low-focus-text.html content="ส่วนนี่เป็น low focus text" %}
 
-{% include file-name.html content="อันนี้เป็นชื่ือไฟล์ข้างบนโค้ด" %}
+{% include file-name.html content="อันนี้เป็นชื่อไฟล์ข้างบนโค้ด" %}
 
 {% include mrA.html content="dialog block คำพูดของ Mr.A" %}
 
