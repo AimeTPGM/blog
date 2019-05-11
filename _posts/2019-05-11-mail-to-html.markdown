@@ -8,7 +8,7 @@ lastModifiedDate: 2019-05-11 19:45 +0700
 categories: web
 tableOfContent:
  - ใช้ mailto
- - ทำ Form สำหรับส่งเมล์
+ - ทำ Form สำหรับส่งเมลล์
  - Link ไปที่ gmail mail compose
 tags: [web, html, javascript, gmail]
 ---
