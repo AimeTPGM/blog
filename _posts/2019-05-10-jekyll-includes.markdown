@@ -228,7 +228,7 @@ date: 2019-05-10 00:00 +0700
 
 ![3](/blog/assets/img/2019/05/10/3.png)
 
-เพิ่มเติมคือ ต่อไปถ้าอยากจะใส่ style หรือเขียนโค้ด html อะไรเพิ่มใน highlight text ก็ไม่ต้องไปใส่แก้ไฟล์ใน `_posts` ทุกไฟล์ที่มีการใช้ highlight text นี้ แค่ไปแก้ `_includes/highlight-text.html` ก็เพียงพอ
+เพิ่มเติมคือ ต่อไปถ้าอยากจะใส่ style หรือเขียนโค้ด html อะไรเพิ่มใน highlight text ก็ไม่ต้องไปใส่แก้ไฟล์ใน `_posts` ทุกไฟล์แล้ว แก้แค่ `_includes/highlight-text.html` ก็เพียงพอ
 
 {% include focus-text.html content="ขออธิบายเพิ่มเติม"%}
 
