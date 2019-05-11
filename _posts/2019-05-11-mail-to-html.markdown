@@ -172,9 +172,9 @@ https://mail.google.com/mail/u/0/?view=cm&ui=2&tf=0&fs=1&to=someone@email.com&su
 หมดแล้วค่า สำหรับ basic html ในการส่งเมลล์ การทำ form ส่งเมลล์ พร้อมเพิ่ม javascript อีกเล็กน้อย เอาไว้ link ไปหน้า compose email ของ gmail สำหรับใครที่อยากใช้ gmail เป็นหลัก
 
 {% include focus-text.html content="แต่มีข้อควรระวังนิดนึงสำหรับการ link ไป gmail"%} คือ ...
-- เราไม่สามารถการันตีได้ว่า user ของเราทุกคนจะใช้ gmail บางคนอาจใช้ outlook, hotmail, yahoo หรือกระทั่งเมลล์ของบริษัทเค้า ดังนั้นควรมี condition ดักไว้ว่าจะใช้ mailto หรือจะให้ลิ้งไป gmail
-- จากข้อเมื่อกี้ เขียน javascript ดักเอาไว้ก็ได้ ว่าถ้าเจอ gmail.com ในอีเมลล์ของ user ให้ link ไปหน้า compose mail ของ gmail ทันที
-- ถึงจะใช้ gmail แต่ถ้าไม่ได้ล็อกอินไว้ gmail จะ force user ไปที่หน้า login ก่อนถึงจะกลับเข้าหน้า compose เมลล์ที่เราเขียนให้ลิ้งไป
+- เราไม่สามารถการันตีได้ว่า user ของเราทุกคนจะใช้ gmail บางคนอาจใช้ outlook, hotmail, yahoo หรือกระทั่งเมลล์ของบริษัทเค้า
+- จากข้อเมื่อกี้ควรมี condition ดักไว้ว่าจะใช้ mailto หรือจะให้ลิ้งไป gmail โดยเขียน javascript ก็ได้ ว่าถ้าเจอ gmail.com ในอีเมลล์ของ user ให้ link ไปหน้า compose mail ของ gmail ทันที
+- ถ้า user ไม่ได้ล็อกอินไว้ gmail จะ force user ไปที่หน้า login ก่อนถึงจะกลับเข้าหน้า compose เมลล์ที่เราเขียนให้ลิ้งไป
 - วิธีการ link ไป gmail ยังใช้ได้อยู่(11 May 2019) แต่ถ้ามีการอัพเดตหรือเปลี่ยนแปลง link จาก google เมื่อไหร่ ก็อย่าลืมเปลี่ยนตามด้วยนะจ้ะ
 
 Entry นี้ขอหยุดไว้เท่านี้ก่อน ไว้เจอกันใหม่จ้า
