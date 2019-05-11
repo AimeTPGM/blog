@@ -3,7 +3,9 @@ layout: default
 ---
 <div class="post-body">
     {{content}}
+    {% if page.series != "Others" %}
     {% include embeded-series.html %}
+    {% endif %}
 </div>
 
 <div class="post-footer-wrapper">
