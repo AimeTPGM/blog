@@ -1,6 +1,6 @@
 ---
 layout: post 
-series: Human Observation
+series: Human Being
 topic:  Pushing or Punishing, <br>It's your choice to choose
 subtitle: "We are human and it's okay to make a mistake"
 description: "ในความเป็นมนุษย์ที่ใครๆก็ทำผิดพลาด เหตุใดเล่า เราจึงไม่รู้จักให้อภัยตัวเอง"
