@@ -19,13 +19,13 @@ layout: default
                     <div style="margin-right: 10px;"><span class="part-wrapper">Part {{post.series_episode}} </span></div>
                   {%- endif -%}
                 {%- endif -%}
-                <div><span>{{ post.topic | escape }}</span></div>
+                <div><span>{{ post.topic | replace: '<br>', '' }}</span></div>
                 <span class="post-meta mobile">{{ post.date | date: '%d %B %Y' }}</span>
               </div>
           </a>
           <div class="span-wrapper">
             {%- for tag in post.tags -%}
-            <span><a class="about" href="{{ site.baseurl }}/tags#{{tag}}">{{ tag }}</a></span>
+            <span><a class="about" href="{{ site.baseurl }}/tags#{{tag | downcase | replace: ' ', '-' | escape}}">{{ tag }}</a></span>
             {%- endfor -%}
           </div>
         </div>

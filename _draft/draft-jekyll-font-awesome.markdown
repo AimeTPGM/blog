@@ -2,7 +2,7 @@
 layout: post 
 series: ทำ Blog ด้วย Jekyll
 series_episode: Spin-off
-topic:  "ใส่ SEO ใน Jekyll Blog"
+topic:  "มาใช้ FontAwesome Icon ใน Jekyll Blog กัน"
 subtitle: " "
 description: ""
 createdDate: 2019-05-13 01:32 +0700
