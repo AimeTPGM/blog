@@ -240,9 +240,9 @@ tags: [web, blog, jekyll, code refactor]
 
 ![2](/blog/assets/img/2019/05/12/jekyll/2.png)
 
-แต่อยากให้โชว์แค่ลิ้งไป profile github ของเราก็พอ อยากจะลบ `is maintained by` ออก เพราะไม่ชอบ
+แต่นี่อยากให้โชว์แค่ลิ้งไป profile github ของเราก็พอ แล้วก็อยากจะลบ `is maintained by` ออก เพราะไม่ชอบ
 
-เปิดไฟล์ footer ขึ้นมา แก้โค้ดไปตามนี้
+เปิดไฟล์ footer ขึ้นมา แก้โค้ดสักหน่อย
 
 {% include file-name.html content="_includes/footer.html" %} 
 ```html
@@ -253,17 +253,15 @@ tags: [web, blog, jekyll, code refactor]
 {%endraw%}
 ```
 
-กด save ก็จะเห็นว่าแถบ footer ของเราเปลี่ยนไปเป็นแบบนี้ มีลิ้งไป github แล้ว
+กด save ก็จะเห็นว่าแถบ footer ของเราเปลี่ยนไป มีลิ้งไป github แล้ว
 
 ![3](/blog/assets/img/2019/05/12/jekyll/3.png)
 
 ถ้าอยากเพิ่ม style สวยๆเข้าไปก็เขียนเพิ่มตามใจชอบ
 
-ก็ประมาณนี้ การ refactor หน้า default ของ Cayman theme ในบล็อกตัวเอง เพื่อเตรียมเอาไปทำอย่างอื่นเพิ่ม เช่น ทำ seo ใน head หรือแก้ header ของบล็อกให้เป็นแบบอื่นๆ เป็นต้น
+จบเท่านี้แหล่ะ การ refactor หน้า default ของ Cayman theme ในบล็อกตัวเอง เอาไว้เตรียมเอาไปทำอย่างอื่นเพิ่ม เช่น ทำ seo ใน head หรือแก้ header ของบล็อกให้เป็นแบบอื่นๆ เป็นต้น
 
 อ่านจบแล้ว อย่าลืมเอาไปลองทำในบล็อกตัวเองด้วยล่ะ!
-
-ลองทำดู โค้ดไปเขียนไป สะใจดี
 
 ไว้เจอกันใหม่ เอ็นทรี่หน้า
 
