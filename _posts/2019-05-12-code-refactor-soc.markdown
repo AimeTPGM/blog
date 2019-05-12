@@ -106,8 +106,8 @@ tags: [coding journey, code refactor]
 
 แล้วเราจะสามารถเขียนโค้ดและหั่นโค้ดได้หอมและอร่อยขึ้นอย่างแน่นอน
 
-{% include focus-text.html content="No body is perfect, but my code will always be my best." %}
+{% include focus-text.html content="Nobody is perfect, but my code will always be my best." %}
 
 {% include signature.html %}
 
-{% include low-focus-text.html content="[ตัวอย่างการแบ่งโค้ดแบบ Separation of Concerns จิ้มจ้า](/blog/jekyll/2019/05/12/jekyll-refactor-cayman-default.html)
+{% include low-focus-text.html content="[หนึ่งตัวอย่างในการแบ่งโค้ดแบบ Separation of Concerns จิ้มจ้า](/blog/jekyll/2019/05/12/jekyll-refactor-cayman-default.html)
