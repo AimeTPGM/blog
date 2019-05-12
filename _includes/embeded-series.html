@@ -35,7 +35,7 @@
         {% for item in spinOff %}
             {% assign postInfo = item | split: '_' %}
                 <div>
-                    <a href="{{ site.baseurl }}{{postInfo[1]}}" target="_blank">{{ postInfo [0]}}</a>
+                    <a href="{{ site.baseurl }}{{postInfo[1]}}" target="_blank">{{ postInfo [0]  | downcase | replace: ' ', '-' }}</a>
                 </div>
         {% endfor %}
     </div>
