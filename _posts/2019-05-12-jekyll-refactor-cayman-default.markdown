@@ -177,9 +177,7 @@ tags: [web, blog, jekyll, code refactor]
 {%endraw%}
 ```
 
-`default.html` ก็จะเหลือแค่นี้ 
-
-ใช้ liquid tag `{%raw%}{% include file-name.html %}{%endraw%}` ในการ include file ที่แยกออกไปเข้ามา
+`default.html` ใช้ liquid tag `{%raw%}{% include file-name.html %}{%endraw%}` ในการ include file ที่แยกออกไปเข้ามา ก็จะเหลือแค่นี้ 
 
 {% include file-name.html content="_layouts/default.html" %} 
 ```html
