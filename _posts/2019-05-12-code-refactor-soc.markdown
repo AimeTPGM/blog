@@ -110,4 +110,4 @@ tags: [coding journey, code refactor]
 
 {% include signature.html %}
 
-{% include low-focus-text.html content="[หนึ่งตัวอย่างในการแบ่งโค้ดแบบ Separation of Concerns จิ้มจ้า](/blog/jekyll/2019/05/12/jekyll-refactor-cayman-default.html)
+{% include low-focus-text.html content="[หนึ่งตัวอย่างในการแบ่งโค้ดแบบ Separation of Concerns จิ้มจ้า](/blog/jekyll/2019/05/12/jekyll-refactor-cayman-default.html)" %}
