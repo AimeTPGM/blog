@@ -24,7 +24,7 @@
         {% for item in mainPart %}
             {% assign postInfo = item | split: '_' %}
                 <div>
-                    <a href="{{ site.baseurl }}{{postInfo[1]}}" target="_blank">Part {{ postInfo[2] }} {{ postInfo [0] | downcase | replace: ' ', '-' }}</a>
+                    <a href="{{ site.baseurl }}{{postInfo[1]}}" target="_blank">Part {{ postInfo[2] }} {{ postInfo [0] | downcase | replace: '<br>', '' }}</a>
                 </div>
         {% endfor %}
     </div>
@@ -35,7 +35,7 @@
         {% for item in spinOff %}
             {% assign postInfo = item | split: '_' %}
                 <div>
-                    <a href="{{ site.baseurl }}{{postInfo[1]}}" target="_blank">{{ postInfo [0] | downcase | replace: ' ', '-' }}</a>
+                    <a href="{{ site.baseurl }}{{postInfo[1]}}" target="_blank">{{ postInfo [0] | downcase | replace: '<br>', '' }}</a>
                 </div>
         {% endfor %}
     </div>
