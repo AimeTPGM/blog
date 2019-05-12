@@ -32,7 +32,7 @@ tags: [web, blog, jekyll, code refactor]
 
 เคยอธิบายไว้ใน [EP3](/blog/jekyll/2019/05/09/customize-jekyll-theme.html){:target="_blank"} ว่า Gem-based theme จะดูไฟล์ที่โปรเจ็คของเราก่อน ถ้าไม่มีถึงจะไปหาไฟล์นั้นใน theme repository 
 
-ดังนั้นถ้าเราต้องการจะแก้ไขโค้ด html ที่มากับ theme เราต้องสร้างไฟล์ใหม่ในโปรเจ็คของเราด้วยชื่อเดียวกัน เสมือนเขียนทับไฟล์ของ theme (Overriding)
+ดังนั้นถ้าเราต้องการจะแก้ไขโค้ด html ที่มากับ theme เราต้องสร้างไฟล์ใหม่ในโปรเจ็คของเราด้วยชื่อเดียวกัน เสมือนเขียนทับไฟล์ของ theme นั้น (หรือที่เรียกว่า Overriding)
 
 ขั้นตอนแรกของเรา คือไปก๊อบไฟล์ `default.html` มาจาก [Cayman theme repository](https://github.com/pages-themes/cayman){:target="_blank"} กันเลย!
 
