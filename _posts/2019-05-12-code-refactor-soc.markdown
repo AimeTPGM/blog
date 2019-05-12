@@ -3,7 +3,7 @@ layout: post
 series: Others
 topic:  หั่นโค้ดยังไง ไม่ให้อ้วก
 subtitle: "Better way to serve the code"
-description: ""
+description: "สงสัยไหม ทำไมต้องหั่นโค้ด? เคยไหม ที่จะต้องอ่านโค้ดหน้านึงยาวเป็นร้อยๆบรรทัด? แล้วแฮปปี้ไหม กับการอ่านโค้ดแบบนั้น?"
 createdDate: 2019-05-12 06:20 +0700
 lastModifiedDate: 2019-05-12 06:55 +0700
 categories: web
