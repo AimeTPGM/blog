@@ -38,7 +38,7 @@ tags: [web, blog, jekyll, code refactor]
 
 โดยไฟล์นั้นอยู่ที่ `_layouts/default.html` 
 
-เข้าไปในนี้ [https://github.com/pages-themes/cayman/blob/master/_layouts/default.html](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html){:target="_blank"} แล้วก๊อบมาทั้งดุ้นเลย
+เข้าไปในนี้ [https://github.com/pages-themes/cayman/blob/master/_layouts/default.html](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html){:target="_blank"} แล้วก๊อบมาทั้งดุ้น
 
 ![1](/blog/assets/img/2019/05/12/jekyll/1.png)
 
@@ -112,7 +112,7 @@ tags: [web, blog, jekyll, code refactor]
 {%endraw%}
 ```
 
-เอาล่ะ มาเริ่มหั่นกันเลย
+เอาล่ะ มาเริ่มหั่นกัน
 
 ด้วยความที่มันเป็น html tag เลยพอจะดูง่ายหน่อย ส่วนตัวคิดว่าหน้านี้สามารถแยก head, header แล้วก็ footer ออกมาเป็นไฟล์ใหม่ แล้วน่าจะจัดการได้ง่ายขึ้น
 
