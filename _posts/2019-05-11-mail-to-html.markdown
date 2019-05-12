@@ -3,7 +3,7 @@ layout: post
 series: Others
 topic:  ทำ form ไว้ส่ง mail จากหน้าเว็บกัน
 subtitle: " "
-description: "basic html และ jvavascript สำหรับส่งอีเมลล์จาก html form ไปหา email ใน portfolio หรือเว็บไซต์ของตัวเอง"
+description: "basic html และ javascript สำหรับส่งอีเมลล์จาก html form ไปหา email ใน portfolio หรือเว็บไซต์ของตัวเอง"
 createdDate: 2019-05-11 15:52 +0700
 lastModifiedDate: 2019-05-11 19:45 +0700
 categories: web
