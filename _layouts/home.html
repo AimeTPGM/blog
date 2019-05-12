@@ -13,7 +13,11 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             <div class="topic-wrapper">
                 {%- if post.series_episode -%}
-                <div style="margin-right: 10px;"><span class="part-wrapper">Part {{post.series_episode}} </span></div>
+                  {%- if post.series_episode == "Spin-off" -%}
+                    <div style="margin-right: 10px;"><span class="part-wrapper">Spin-off</span></div>
+                  {% else %}
+                    <div style="margin-right: 10px;"><span class="part-wrapper">Part {{post.series_episode}} </span></div>
+                  {%- endif -%}
                 {%- endif -%}
                 <div><span>{{ post.topic | escape }}</span></div>
                 <span class="post-meta mobile">{{ post.date | date: '%d %B %Y' }}</span>

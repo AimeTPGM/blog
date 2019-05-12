@@ -20,7 +20,7 @@ tags: [web, blog, jekyll]
 
 อันนี้เป็น EP สุดท้ายสำหรับเนื้อหาหลักในซีรี่ส์ [ทำ Blog ด้วย Jekyll](/blog/series/#ทำ-blog-ด้วย-jekyll) แล้ว ที่เหลือจะเป็น Spin-off สำหรับการเอาความรู้พื้นฐานของการทำ Jekyll Blog มาดัดแปลง
 
-ใครที่ตามอ่านมาจาก [EP1](/blog/jekyll/2019/05/06/blog-like-a-coder.html){:target="_blank"}, [EP2](/blog/jekyll/2019/05/08/jekyll-github-page.html) หรือ [EP3](/blog/jekyll/2019/05/08/jekyll-github-page.html) เปิดโค้ด Jekyll Blog ของตัวเองขึ้นมาใน Text Editor แล้วมาเริ่มโค้ดกันได้เลย!
+ใครที่ตามอ่านมาจาก [EP1](/blog/jekyll/2019/05/06/blog-like-a-coder.html){:target="_blank"}, [EP2](/blog/jekyll/2019/05/08/jekyll-github-page.html) หรือ [EP3](/blog/jekyll/2019/05/09/customize-jekyll-theme.html) เปิดโค้ด Jekyll Blog ของตัวเองขึ้นมาใน Text Editor แล้วมาเริ่มโค้ดกันได้เลย!
 
 # Entry นี้มีอะไรบ้าง
 
