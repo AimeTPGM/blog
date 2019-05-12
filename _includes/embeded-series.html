@@ -28,7 +28,7 @@
                         {% if postInfo[2] %}
                         <span>Part {{ postInfo[2] }}</span> 
                         {% endif %}
-                        <span>{{ postInfo [0] | downcase | replace: '<br>', '' }}</span></a>
+                        <span>{{ postInfo [0] | replace: '<br>', '' }}</span></a>
                 </div>
         {% endfor %}
     </div>
@@ -39,7 +39,7 @@
         {% for item in spinOff %}
             {% assign postInfo = item | split: '_' %}
                 <div>
-                    <a href="{{ site.baseurl }}{{postInfo[1]}}" target="_blank">{{ postInfo [0] | downcase | replace: '<br>', '' }}</a>
+                    <a href="{{ site.baseurl }}{{postInfo[1]}}" target="_blank">{{ postInfo [0] | replace: '<br>', '' }}</a>
                 </div>
         {% endfor %}
     </div>
