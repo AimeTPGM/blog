@@ -27,7 +27,7 @@ tags: [web, html, javascript, gmail]
 
 ก็เลยเป็นที่มาของ entry นี้ เพราะแอบไปเซิร์ด Google มา 5555
 
-# Entry นี้มีอะไรบ้าง
+
 
 {% include table-of-content.html header=page.tableOfContent %}
 

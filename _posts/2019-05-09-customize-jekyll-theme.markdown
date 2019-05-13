@@ -38,7 +38,7 @@ EP นี้เราจะมาแต่ง Blog จากการ Override O
 
 {% include focus-text.html content="<b>คำเตือน:</b>" %} entry นี้ค่อนข้างยาว เหมาะสำหรับอ่านไป ทำไปพร้อมๆกัน ทำเสร็จแล้วจะได้ blog พื้นฐานแบบสวยๆ เอาไปร่อนอวดคนอื่นได้เลย
 
-# Entry นี้มีอะไรบ้าง
+
 
 {% include table-of-content.html header=page.tableOfContent %}
 

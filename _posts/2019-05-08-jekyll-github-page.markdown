@@ -20,7 +20,7 @@ tags: [web, blog, jekyll, git, github, github page]
 
 ต่อจาก [Part I มาทำ Blog ด้วย Jekyll กันดีกว่า](/blog/jekyll/2019/05/06/blog-like-a-coder.html) วันนี้เราจะอัพบล็อกของเราไปโฮสไว้ที่ {% include focus-text.html content="Github Page" %} ซึ่งให้ Developer โฮสต์ Repository ของตัวเองได้ฟรีๆกัน 
 
-# Entry นี้มีอะไรบ้าง
+
 
 {% include table-of-content.html header=page.tableOfContent %}
 

@@ -22,7 +22,7 @@ tags: [web, blog, jekyll]
 
 ใครที่ตามอ่านมาจาก [EP1](/blog/jekyll/2019/05/06/blog-like-a-coder.html){:target="_blank"}, [EP2](/blog/jekyll/2019/05/08/jekyll-github-page.html) หรือ [EP3](/blog/jekyll/2019/05/09/customize-jekyll-theme.html) เปิดโค้ด Jekyll Blog ของตัวเองขึ้นมาใน Text Editor แล้วมาเริ่มโค้ดกันได้เลย!
 
-# Entry นี้มีอะไรบ้าง
+
 
 {% include table-of-content.html header=page.tableOfContent %}
 

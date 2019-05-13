@@ -20,7 +20,7 @@ tags: [web, blog, jekyll, code refactor]
 
 นอกจากเรื่องเอามา reuse ได้แล้ว การดึงโค้ดออกมาเป็นส่วนๆ ยังช่วยให้เราจัดการโค้ดได้ง่ายขึ้นด้วย
 
-# Entry นี้มีอะไรบ้าง
+
 
 {% include table-of-content.html header=page.tableOfContent %}
 

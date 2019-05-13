@@ -9,7 +9,7 @@ lastModifiedDate: 2019-05-13 20:38 +0700
 categories: human being
 tags: [human being]
 ---
-{% include hidden-thumbnail.html image="/blog/assets/img/2019/05/13/thumbnail.png" %}
+{% include hidden-thumbnail.html image="/blog/assets/img/2019/05/13/mistake/thumbnail.png" %}
 
 {% include focus-text-lvl1.html content="บันทึกเมื่อครึ่งนึงก่อนอายุ 30" %}
 

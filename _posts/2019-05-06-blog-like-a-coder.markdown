@@ -37,8 +37,6 @@ tags: [web, blog, jekyll]
 
 วันนึงนั่งไถๆ Facebook แล้วไปเจอโพสของน้องคนนึง เลยทำให้ได้มารู้จักกับ {% include focus-text.html content="**Jekyll**" %} ครั้งแรก
 
-# Entry นี้มีอะไรบ้าง
-
 {% include table-of-content.html header=page.tableOfContent %}
 
 # ทำไมต้อง Jekyll
