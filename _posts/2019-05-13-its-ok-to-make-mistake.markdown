@@ -2,7 +2,7 @@
 layout: post 
 series: Human Being
 topic:  Pushing or Punishing, <br>It's your choice to choose
-subtitle: "We are human and it's okay to make a mistake"
+subtitle: "We are human and it's ok to make a mistake"
 description: "ในความเป็นมนุษย์ที่ใครๆก็ทำผิดพลาด เหตุใดเล่า เราจึงไม่รู้จักให้อภัยตัวเอง"
 createdDate: 2019-05-13 00:51 +0700
 lastModifiedDate: 2019-05-13 20:38 +0700
@@ -13,7 +13,7 @@ tags: [human being]
 
 {% include focus-text-lvl1.html content="บันทึกเมื่อครึ่งนึงก่อนอายุ 30" %}
 
-สิ่งนึงที่รู้สึกได้ และเห็นชัดเจนขึ้น คือ {% include focus-text.html content="it's okay to make a mistake" %} เพื่อที่เราจะได้รู้ว่าเราทำผิดพลาดอะไรไป จะแก้ไขมันยังไง แล้วจะป้องกันมันอย่างไร 
+สิ่งนึงที่รู้สึกได้ และเห็นชัดเจนขึ้น คือ {% include focus-text.html content="it's ok to make a mistake" %} เพื่อที่เราจะได้รู้ว่าเราทำผิดพลาดอะไรไป จะแก้ไขมันยังไง แล้วจะป้องกันมันอย่างไร 
 
 เพราะเราเป็นคน เหนื่อยได้ เจ็บได้ ทำพลาดได้ เสียใจได้ เมื่อเกิดข้อผิดพลาดหรือการพลั้งพลาดขึ้นด้วยความไม่ตั้งใจหรือไม่รอบคอบ ให้เรารับทราบและพร้อมจะแก้ไข เพื่อพัฒนาตัวเองให้ดีขึ้น
 
@@ -73,4 +73,4 @@ tags: [human being]
 
 แด่ ฉันที่กำลังอายุ 26,
 
-We're human and it's okay to make a mistake.
+We're human and it's ok to make a mistake.

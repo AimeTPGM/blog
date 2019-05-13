@@ -1,7 +1,7 @@
 <!-- custom seo -->
 <title>AimeTPGM | {{ page.topic }} | {{ site.title | escape }}</title>
 <meta name="generator" content="Jekyll v3.8.5">
-<meta property="og:title" content="{{ page.topic }}">
+<meta property="og:title" content="{{ page.topic | replace: '<br>', '' }}">
 <meta property="og:locale" content="en_US">
 <meta name="description" content="{{ page.subtitle | default: site.description }} | {{ page.description | truncate: 160 }}">
 <meta property="og:description" content="{{ page.subtitle | default: site.description }} | {{ page.description | truncate: 160 }}">
