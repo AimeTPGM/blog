@@ -25,6 +25,8 @@ facebook_username: AimeTPGM
 github_username:  AimeTPGM
 stack_overflow_profile: https://stackoverflow.com/users/7731765/aimetpgm
 google_analytics: UA-106985153-1
+paginate: 4
+paginate_path: /page:num
 
 # Build settings
 markdown: kramdown

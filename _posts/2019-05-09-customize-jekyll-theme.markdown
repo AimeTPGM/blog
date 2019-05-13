@@ -405,7 +405,7 @@ save แล้วกด refresh
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 เกี่ยวกับเรา

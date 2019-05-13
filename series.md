@@ -49,7 +49,7 @@ permalink: /series
                         {% if postInfo[2] %}
                         Part {{ postInfo[2] }} 
                         {% endif %}
-                        {{ postInfo [0]}}</a>
+                        {{ postInfo [0] | replace: '<br>', ''}}</a>
                 </div>
         {% endfor %}
     </div>
