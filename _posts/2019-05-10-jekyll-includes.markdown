@@ -2,7 +2,7 @@
 layout: post 
 series: ทำ Blog ด้วย Jekyll
 series_episode: IV
-topic:  "เขียน component templates กับ include ใน Jekyll"
+topic:  "Jekyll: เขียน component templates ด้วย include"
 subtitle: "DRY – Don't Repeat Yourself"
 description: "เลิกเขียนโค้ดซ้ำๆ พร้อมเพิ่มลูกเล่นให้ blog post ให้น่าอ่านบน jekyll"
 createdDate: 2019-05-10 19:30 +0700

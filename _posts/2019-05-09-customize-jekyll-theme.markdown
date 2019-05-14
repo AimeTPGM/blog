@@ -2,7 +2,7 @@
 layout: post 
 series: ทำ Blog ด้วย Jekyll
 series_episode: III
-topic:  "แต่ง Blog สวยๆ ด้วย Jekyll Theme"
+topic:  "Jekyll: แต่ง Blog สวยๆ ด้วย Theme"
 subtitle: "Blog ไป Code ไป สะใจจริงๆ"
 description: "มาแต่ง blog ด้วย Jekyll Official Theme สอน override theme การสร้าง blog การทำหน้า home และอธิบายการทำงานของ gem-based theme"
 createdDate:   2019-05-09 16:48 +0700

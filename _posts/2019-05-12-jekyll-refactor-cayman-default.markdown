@@ -2,7 +2,7 @@
 layout: post 
 series: ทำ Blog ด้วย Jekyll
 series_episode: Spin-off
-topic:  "บันทึก Refactor หน้า default ของ Cayman"
+topic:  "Jekyll: บันทึก Refactor หน้า default ของ Cayman"
 subtitle: " "
 description: "Refactor Code หน้า default.html ของ Cayman สร้าง footer ใหม่ใน template เดิม"
 createdDate: 2019-05-12 02:45 +0700

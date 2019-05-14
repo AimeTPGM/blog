@@ -2,7 +2,7 @@
 layout: post 
 series: ทำ Blog ด้วย Jekyll
 series_episode: Spin-off
-topic:  "วิธีสร้าง Draft Post ใน Jekyll"
+topic:  "Jekyll: วิธีสร้าง Draft Post"
 subtitle: "เขียนก่อน โพสต์ทีหลัง"
 createdDate:   2019-05-13 19:12 +0700
 lastModifiedDate: 2019-05-13 20:17 +0700
