@@ -1,5 +1,6 @@
 ---
 layout: post 
+series: ทำ Blog ด้วย Jekyll
 series_episode: Spin-off
 topic:  "Jekyll: ทำ Pagination ที่หน้า Home"
 subtitle: "บล็อกเริ่มเยอะ แบ่งย่อยๆเป็นหน้าๆละกัน"
@@ -90,6 +91,7 @@ save แล้วสั่งรัน `bundle exec jekyll serve` ที่ห�
 (ส่วนตัวทำเป็น component ไว้ใน `_includes` แล้วค่อย `{%raw%}{% include %}{%endraw%}` เข้ามา) 
 
 ```html
+{%raw%}
 <!-- ถ้า total page มากกว่า 1 ถึงจะโชว์ จำนวนหน้า -->
 {% if paginator.total_pages > 1 %}
 <ul style="display: flex; padding: 10px; justify-content: center;">
@@ -132,6 +134,7 @@ save แล้วสั่งรัน `bundle exec jekyll serve` ที่ห�
   {% endif %}
 </ul>
 {% endif %}
+{%endraw%}
 ```
 
 กด save กลับไปดู `localhost:4000/blog/` มี pagination ขึ้นมาแว้ววว
