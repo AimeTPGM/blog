@@ -46,7 +46,7 @@ permalink: /tags
                 </div>
                 <div class="span-wrapper tag-page">
                     {% for tag in post.tags %}
-                        <span><a class="tag" href="/blog/tag#{{ tag | slugify }}">{{ tag }}</a></span>
+                        <span><a class="tag" href="/blog/tags#{{ tag | slugify }}">{{ tag }}</a></span>
                     {% endfor %}
                 </div>
             </div>
