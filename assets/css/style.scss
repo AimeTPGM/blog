@@ -20,7 +20,11 @@ a {
 }
 
 .page-header {
+    padding: 5rem 6rem 1rem;
     background-image: linear-gradient(to right bottom, rgb(28, 83, 140), rgb(12, 31, 56));
+    > div {
+        padding-bottom: 30px;
+    }
     .header-text {
         color: $hover-text-color;
         &:hover {
@@ -371,6 +375,23 @@ em {
         }
     }
 }
+
+header {
+    .index-link {
+        display: flex;
+        justify-content: center;
+        div {
+            padding: 20px;
+            a { 
+                color: rgba(255,255,255,0.7); 
+                &:hover {
+                    color: $hover-text-color;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .desktop {
         display: none;
@@ -431,6 +452,18 @@ em {
                     font-size: 0.8em;
                 }
             }
+        }
+    }
+    header {
+        .index-link {
+            display: none;
+        }
+    }
+    
+    .page-header {
+        padding: 2rem 1rem;
+        > div {
+            padding-bottom: 0;
         }
     }
 }
